@@ -1,0 +1,47 @@
+{
+  "siteName": "Chinatown Through the Ages",
+  "pageTitle": "Chinatown Through the Ages",
+  "pageSubtitle": "Explore the places, communities, and stories that have shaped San Francisco's Chinatown.",
+  "allPeriodsHeading": "All periods.",
+  "allPeriodsText": "Choose a period above to highlight the sites connected to it and read about the broader history of that era. Sites are linked to a period by documented events or cultural significance — not only by when the current building was built.",
+  "about": {
+    "eyebrow": "About the project",
+    "heading": "A developing student resource",
+    "paragraphs": [
+      "*Chinatown Through the Ages* is a draft informational resource created by students in UC Berkeley's EDUC 155AC, in collaboration with the Chinese Historical Society of America (CHSA).",
+      "This is a work in progress. The selected sites, descriptions, and dates are preliminary and will be refined with community input. Every entry shows a verification label, and details that sources disagree on are marked {verify}. Please do not cite this prototype as an authoritative source.",
+      "Corrections and suggestions are welcome — especially from Chinatown residents, families, and organizations whose histories are represented here."
+    ],
+    "goals": [
+      {
+        "title": "Cultural preservation",
+        "body": "We focus on how places sustain traditions, language, faith, and community — not just on famous buildings."
+      },
+      {
+        "title": "Change over time",
+        "body": "The timeline shows how Chinatown developed from the Gold Rush through exclusion, rebuilding, activism, and today."
+      },
+      {
+        "title": "Why sites matter",
+        "body": "Each site explains its cultural significance and its role in supporting immigrants and preserving heritage."
+      },
+      {
+        "title": "Accessible history",
+        "body": "An interactive map makes historical research approachable for visitors with no background in Chinatown's history."
+      },
+      {
+        "title": "Community collaboration",
+        "body": "Content will be reviewed and refined with the Chinese Historical Society of America, whose guidance shapes which sites and stories are included."
+      }
+    ]
+  },
+  "footer": {
+    "courseLine": "UC Berkeley · EDUC 155AC",
+    "collaborationLine": "In collaboration with the Chinese Historical Society of America",
+    "groupMembersHeading": "Group members",
+    "groupMembers": ["[Names to be added]"],
+    "sourcesHeading": "Sources & acknowledgments",
+    "sourcesText": "Site-specific sources are listed in each location panel.",
+    "creditsText": "Built with React and Leaflet. Draft prototype, {year}."
+  }
+}

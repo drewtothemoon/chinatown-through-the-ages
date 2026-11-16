@@ -1,0 +1,573 @@
+{
+  "locations": [
+    {
+      "id": "portsmouth-square",
+      "name": "Portsmouth Square",
+      "chineseName": "",
+      "category": "Public Space",
+      "latitude": 37.7947,
+      "longitude": -122.4053,
+      "address": "733 Kearny St (Kearny St between Clay & Washington)",
+      "relevantPeriods": [
+        "1850-1899",
+        "1900-1949",
+        "1950-1999",
+        "2000-present"
+      ],
+      "dateSummary": "Public square since the 1840s · Chinatown's \"living room\"",
+      "historicalEvents": [
+        {
+          "date": "July 9, 1846",
+          "period": "1850-1899",
+          "text": "Captain John B. Montgomery of the USS Portsmouth raised the first U.S. flag in the area here; the square was later named after his ship.",
+          "needsVerification": false
+        },
+        {
+          "date": "1880s",
+          "period": "1850-1899",
+          "text": "The growing Chinese community adopted the square as a gathering place, calling it \"the garden corner.\"",
+          "needsVerification": false
+        },
+        {
+          "date": "1959–1963",
+          "period": "1950-1999",
+          "text": "Despite strong public opposition, the Board of Supervisors approved an underground parking garage (Oct. 1959); construction from 1961 to 1963 required removing the original park.",
+          "needsVerification": false
+        },
+        {
+          "date": "1971",
+          "period": "1950-1999",
+          "text": "A pedestrian bridge connecting the square to the Chinese Culture Center across Kearny Street was completed.",
+          "needsVerification": false
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "Residents — many of them seniors living in nearby small apartments — use the square daily for exercise, card games, tai chi, and socializing.",
+          "needsVerification": false
+        }
+      ],
+      "description": "Portsmouth Square is one of San Francisco's oldest public spaces. When Chinese immigrants settled nearby during the Gold Rush, the area around the square became the core of Chinatown. Because housing in Chinatown has long been crowded — many families and elderly residents live in single rooms — the square works as a shared backyard for the whole neighborhood.",
+      "culturalSignificance": "Often called the \"heart\" or \"living room\" of Chinatown, the square is where everyday cultural life happens in public: elders play xiangqi (Chinese chess) and cards, people practice tai chi in the morning, and community festivals and rallies gather here.",
+      "broaderConnection": "The square's history mirrors Chinatown's: an early settlement site, a space the community claimed for itself despite exclusion, and later a place where city planning decisions (like the 1960s garage) were made over residents' objections.",
+      "preservationConnection": "Portsmouth Square preserves intangible heritage — games, exercise traditions, and social networks between neighbors — that depends on having shared public space. Efforts to protect and redesign it show that preservation includes keeping places usable for the people who live in Chinatown today.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Portsmouth Square",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portsmouth_Square",
+          "note": "Tertiary source — replace with primary/scholarly sources where possible."
+        }
+      ],
+      "verificationStatus": "verified-secondary",
+      "researchNotes": [
+        "Ask CHSA about community activism and rallies held at the square (dates and events).",
+        "Research current redesign plans for the square and how residents have been involved."
+      ]
+    },
+    {
+      "id": "tin-how-temple",
+      "name": "Tin How Temple",
+      "chineseName": "",
+      "category": "Religious Site",
+      "latitude": 37.79456,
+      "longitude": -122.407,
+      "address": "125 Waverly Place (top floor)",
+      "relevantPeriods": [
+        "1850-1899",
+        "1900-1949",
+        "1950-1999",
+        "2000-present"
+      ],
+      "dateSummary": "Reportedly founded c. 1852 · Rebuilt 1910 · Reopened 1975",
+      "historicalEvents": [
+        {
+          "date": "c. 1852–1853",
+          "period": "1850-1899",
+          "text": "The temple was reportedly founded around this time, making it one of the oldest still-operating Chinese temples in the United States.",
+          "needsVerification": true
+        },
+        {
+          "date": "1906",
+          "period": "1900-1949",
+          "text": "The earthquake and fire destroyed the building, but the image of the goddess, the temple bell, and part of the altar survived.",
+          "needsVerification": false
+        },
+        {
+          "date": "1910",
+          "period": "1900-1949",
+          "text": "The Sue Hing Benevolent Association reopened the temple on the top floor of a new four-story building on the same site.",
+          "needsVerification": false
+        },
+        {
+          "date": "1955–1975",
+          "period": "1950-1999",
+          "text": "The temple closed in 1955 and reopened on May 4, 1975.",
+          "needsVerification": false
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "The temple remains an active place of worship that visitors may enter.",
+          "needsVerification": false
+        }
+      ],
+      "description": "Tin How Temple honors Mazu (called Tin How, \"Empress of Heaven,\" in Cantonese), a sea goddess who protects sailors and travelers. Many early Chinese immigrants had crossed the Pacific by ship, and temples like this gave them a place to give thanks, pray for family, and keep religious practices from home.",
+      "culturalSignificance": "As one of the oldest surviving Chinese temples in the U.S., Tin How shows how immigrants carried religious traditions across the ocean and kept them alive for generations. Placing the temple on the top floor — closer to heaven, above shops and offices — reflects a building pattern common in Chinatown.",
+      "broaderConnection": "The temple's story — founded during the Gold Rush, destroyed in 1906, rebuilt by a community association, closed and later revived — follows the major turning points of Chinatown history.",
+      "preservationConnection": "Survival of the goddess image and bell through the 1906 fire, and the temple's reopening in 1975, show active community effort to preserve religious heritage. Its continued use means the tradition is preserved as living practice, not only as an artifact.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Tin How Temple",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tin_How_Temple",
+          "note": "Describes the 1852/1853 founding date as \"purported.\""
+        },
+        {
+          "title": "Tin How Temple",
+          "publisher": "Chinatownology",
+          "url": "https://chinatownology.com/tin_how_temple.html",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "needs-review",
+      "researchNotes": [
+        "Founding date and \"oldest\" claims differ between sources — confirm with CHSA.",
+        "Ask about photography etiquette (photos are often not allowed inside) before sourcing images."
+      ]
+    },
+    {
+      "id": "waverly-place",
+      "name": "Waverly Place",
+      "chineseName": "",
+      "category": "Historic Street",
+      "latitude": 37.7939,
+      "longitude": -122.40672,
+      "address": "Waverly Place, between Sacramento St & Washington St",
+      "relevantPeriods": [
+        "1850-1899",
+        "1900-1949",
+        "2000-present"
+      ],
+      "dateSummary": "Associations & temples above storefronts · Rebuilt after 1906",
+      "historicalEvents": [
+        {
+          "date": "1850s",
+          "period": "1850-1899",
+          "text": "Tin How Temple was reportedly established on this street in the early 1850s.",
+          "needsVerification": true
+        },
+        {
+          "date": "After 1906",
+          "period": "1900-1949",
+          "text": "Buildings were rebuilt after the earthquake and fire, with family associations and temples on upper floors above shops — their decorated balconies earned the street the nickname \"street of painted balconies.\"",
+          "needsVerification": true
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "Family and district associations and temples still occupy many upper floors along the street.",
+          "needsVerification": true
+        }
+      ],
+      "description": "Waverly Place is a short street one block west of Grant Avenue. Its upper floors house family associations (organizations for people who share a surname) and district associations (for people from the same region of China), along with temples. For immigrants far from home, these associations offered housing help, job connections, loans, and a sense of belonging.",
+      "culturalSignificance": "Waverly Place shows how Chinatown's community institutions are layered vertically: everyday businesses at street level, and associations and temples above, marked by colorful balconies. It is one of the best places to see the network of associations that has supported Chinatown's residents.",
+      "broaderConnection": "Family and district associations were central to Chinatown's self-governance during the exclusion era, when Chinese immigrants were shut out of many mainstream institutions.",
+      "preservationConnection": "Associations on Waverly Place continue to host celebrations, ancestor veneration, and gatherings that keep regional dialects and family traditions alive. The street's architecture itself is a preserved record of post-1906 rebuilding.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Waverly Place",
+          "publisher": "Lonely Planet",
+          "url": "https://www.lonelyplanet.com/usa/san-francisco/north-beach-and-chinatown/attractions/waverly-place/a/poi-sig/1406320/1329641",
+          "note": "Travel guide — RESEARCH PENDING: replace with a scholarly or archival source."
+        },
+        {
+          "title": "Tin How Temple",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tin_How_Temple",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "needs-review",
+      "researchNotes": [
+        "Research pending: which specific associations and temples are on Waverly Place today?",
+        "Confirm origin and date of the \"street of painted balconies\" nickname.",
+        "Ask CHSA for historic photos of the street before and after 1906."
+      ]
+    },
+    {
+      "id": "ccba-six-companies",
+      "name": "Chinese Consolidated Benevolent Association (Chinese Six Companies)",
+      "chineseName": "",
+      "category": "Community Organization",
+      "latitude": 37.79375,
+      "longitude": -122.40819,
+      "address": "843 Stockton St",
+      "relevantPeriods": [
+        "1850-1899",
+        "1900-1949",
+        "1950-1999",
+        "2000-present"
+      ],
+      "dateSummary": "Organized 1850s · Formally established 1882 · Incorporated 1901",
+      "historicalEvents": [
+        {
+          "date": "1850s",
+          "period": "1850-1899",
+          "text": "District associations formed by immigrants from different regions of Guangdong began working together; this alliance became known as the \"Six Companies.\"",
+          "needsVerification": false
+        },
+        {
+          "date": "1882",
+          "period": "1850-1899",
+          "text": "The Six Companies was formally established — the same year Congress passed the Chinese Exclusion Act.",
+          "needsVerification": false
+        },
+        {
+          "date": "1898",
+          "period": "1850-1899",
+          "text": "The association supported the case of Wong Kim Ark, in which the U.S. Supreme Court affirmed birthright citizenship for children born in the U.S. to Chinese parents.",
+          "needsVerification": false
+        },
+        {
+          "date": "1901",
+          "period": "1900-1949",
+          "text": "Officially incorporated as the Chinese Consolidated Benevolent Association (CCBA).",
+          "needsVerification": false
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "The CCBA remains active as an umbrella organization for Chinatown associations at its Stockton Street headquarters.",
+          "needsVerification": true
+        }
+      ],
+      "description": "During the exclusion era, Chinese immigrants were denied many legal rights and public services. The Six Companies stepped in: it settled disputes among members, represented Chinatown in dealings with city, state, and federal governments, hired lawyers to fight anti-Chinese laws, and opened a Chinese-language school.",
+      "culturalSignificance": "For decades the CCBA was regarded as the main voice of Chinatown and of Chinese Americans more broadly. Its history shows how immigrants built their own systems of governance, welfare, and education when excluded from mainstream society.",
+      "broaderConnection": "The CCBA's legal work connects Chinatown to landmark national history — including the Wong Kim Ark case, which still shapes the meaning of U.S. citizenship today.",
+      "preservationConnection": "By supporting Chinese-language education and community celebrations, the CCBA helped pass language and traditions to U.S.-born generations.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Chinese Consolidated Benevolent Association",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_Consolidated_Benevolent_Association",
+          "note": ""
+        },
+        {
+          "title": "The Chinese Six Companies",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/000/the-chinese-six-companies.htm",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "needs-review",
+      "researchNotes": [
+        "Research pending: when was the 843 Stockton St headquarters built or acquired?",
+        "Some sources date the organization's origins to 1849 (a 175th anniversary was celebrated in 2024). Confirm founding chronology with CHSA.",
+        "Add perspectives on the CCBA's role during the 1950s–1990s, including political debates in the community."
+      ]
+    },
+    {
+      "id": "cameron-house",
+      "name": "Cameron House",
+      "chineseName": "",
+      "category": "Community Organization",
+      "latitude": 37.79318,
+      "longitude": -122.40841,
+      "address": "920 Sacramento St",
+      "relevantPeriods": [
+        "1850-1899",
+        "1900-1949",
+        "2000-present"
+      ],
+      "dateSummary": "Mission home founded 1874 · Rebuilt c. 1907–1908 · Renamed 1942",
+      "historicalEvents": [
+        {
+          "date": "1874",
+          "period": "1850-1899",
+          "text": "The Occidental Mission Home for Girls was founded by Presbyterian women.",
+          "needsVerification": false
+        },
+        {
+          "date": "1895",
+          "period": "1850-1899",
+          "text": "Donaldina Cameron arrived as a sewing teacher; she later led the home until her retirement in 1934.",
+          "needsVerification": false
+        },
+        {
+          "date": "1906–1908",
+          "period": "1900-1949",
+          "text": "The home was destroyed in the earthquake and fire and rebuilt at 920 Sacramento Street (sources give 1907 or 1908).",
+          "needsVerification": true
+        },
+        {
+          "date": "1942",
+          "period": "1900-1949",
+          "text": "Renamed the Donaldina Cameron House.",
+          "needsVerification": false
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "Cameron House operates at the same address, serving low-income Asian immigrant families and youth.",
+          "needsVerification": false
+        }
+      ],
+      "description": "In the late 1800s, exclusion laws made it very hard for Chinese women to immigrate legally, and some women and girls were trafficked into forced labor and prostitution. The mission home sheltered women and girls who escaped or were removed from these situations. Over time it became a broader community and youth center.",
+      "culturalSignificance": "Cameron House is remembered for sheltering vulnerable women and girls, and later for decades of youth programs, social services, and leadership development in Chinatown. Its history also raises important questions about the role of Christian missions and outsiders' views of Chinese culture.",
+      "broaderConnection": "The home's history connects to how exclusion-era laws shaped Chinatown's family life — creating a largely male \"bachelor society\" and a vulnerable position for women.",
+      "preservationConnection": "As a long-running organization at its original post-1906 address, Cameron House preserves institutional memory and continues to serve immigrant families — a form of preservation through ongoing community service.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Mission & History",
+          "publisher": "Cameron House",
+          "url": "https://cameronhouse.org/about-us/history/",
+          "note": ""
+        },
+        {
+          "title": "Donaldina Cameron",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donaldina_Cameron",
+          "note": ""
+        },
+        {
+          "title": "Legacy Business Registry staff report: Donaldina Cameron House",
+          "publisher": "City and County of San Francisco",
+          "url": "https://www.sf.gov/sites/default/files/2024-11/item_3b._lbr-2016-17-059_donaldina_cameron_house.pdf",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "verified-secondary",
+      "researchNotes": [
+        "Was the pre-1906 home also at 920 Sacramento? Sources differ — confirm.",
+        "Add critical perspectives on the mission's approach (e.g., historian Peggy Pascoe's work on Protestant rescue homes) — research pending.",
+        "Add the voices of the women who lived at the home, if CHSA has oral histories or records."
+      ]
+    },
+    {
+      "id": "chsa",
+      "name": "Chinese Historical Society of America (CHSA)",
+      "chineseName": "",
+      "category": "Museum & Archive",
+      "latitude": 37.79374,
+      "longitude": -122.40882,
+      "address": "965 Clay St (former Chinatown YWCA)",
+      "relevantPeriods": [
+        "1900-1949",
+        "1950-1999",
+        "2000-present"
+      ],
+      "dateSummary": "Building opened 1932 · Society founded 1963 · Museum opened here 2001",
+      "historicalEvents": [
+        {
+          "date": "1932",
+          "period": "1900-1949",
+          "text": "The Chinatown YWCA building, designed by architect Julia Morgan, was constructed here. The YWCA's Chinatown branch had served women and girls in the neighborhood since 1916.",
+          "needsVerification": false
+        },
+        {
+          "date": "January 5, 1963",
+          "period": "1950-1999",
+          "text": "CHSA was incorporated, founded by Thomas W. Chinn, C.H. Kwock, Chingwah Lee, H.K. Wong, and Thomas W.S. Wu.",
+          "needsVerification": false
+        },
+        {
+          "date": "1996",
+          "period": "1950-1999",
+          "text": "The YWCA sold the building to CHSA.",
+          "needsVerification": false
+        },
+        {
+          "date": "November 2001",
+          "period": "2000-present",
+          "text": "CHSA opened its museum and learning center in the former YWCA building.",
+          "needsVerification": false
+        }
+      ],
+      "description": "CHSA was founded in 1963 by community members who wanted to research and document the history of Chinese people in America — at a time when that history was largely missing from textbooks and museums. Today it runs a museum, exhibitions, public programs, and an archive of documents, photographs, and artifacts.",
+      "culturalSignificance": "CHSA describes itself as the oldest and largest archive and history center documenting the Chinese American experience. Its building is itself a landmark: the former YWCA was a place where Chinatown women and girls found classes, recreation, and support.",
+      "broaderConnection": "CHSA's founding was part of a broader movement in the 1960s–70s to recover and teach Asian American history — the same movement that produced ethnic studies programs like those at UC Berkeley.",
+      "preservationConnection": "CHSA is directly dedicated to cultural preservation: collecting family papers, photographs, and oral histories; preserving a historic building; and making Chinese American history accessible to the public. It is the partner organization for this project.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Chinese Historical Society of America",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_Historical_Society_of_America",
+          "note": ""
+        },
+        {
+          "title": "Chinese YWCA, Chinatown, San Francisco",
+          "publisher": "Pacific Coast Architecture Database (University of Washington)",
+          "url": "https://pcad.lib.washington.edu/building/6825",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "needs-review",
+      "researchNotes": [
+        "One source says CHSA moved into the YWCA building in 1989; others say 1996 (purchase) / 2001 (museum opening). Confirm with CHSA.",
+        "Ask CHSA how they would like their mission described, and request permission for images."
+      ]
+    },
+    {
+      "id": "dragon-gate",
+      "name": "Chinatown Gate (Dragon Gate)",
+      "chineseName": "",
+      "category": "Landmark",
+      "latitude": 37.7907,
+      "longitude": -122.4056,
+      "address": "Grant Ave at Bush St",
+      "relevantPeriods": [
+        "1950-1999",
+        "2000-present"
+      ],
+      "dateSummary": "Design contest 1967 · Dedicated October 18, 1970",
+      "historicalEvents": [
+        {
+          "date": "1967",
+          "period": "1950-1999",
+          "text": "A design contest open to architects of Chinese descent was won by architect Clayton Lee with landscape architects Melvin H. Lee and Joseph Yee.",
+          "needsVerification": false
+        },
+        {
+          "date": "1969",
+          "period": "1950-1999",
+          "text": "The Republic of China (Taiwan) donated materials including roof tiles and the guardian lions; the City of San Francisco funded construction.",
+          "needsVerification": false
+        },
+        {
+          "date": "October 18, 1970",
+          "period": "1950-1999",
+          "text": "The gate was dedicated with a parade. About 50 protesters criticized spending on a gate for tourists instead of housing, and objected to the Taiwanese government's involvement.",
+          "needsVerification": false
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "The gate is the best-known entrance to Chinatown and a major tourist landmark.",
+          "needsVerification": false
+        }
+      ],
+      "description": "The gate at Grant Avenue and Bush Street marks the southern entrance to Chinatown. Its design draws on traditional Chinese village gateways. The central inscription, 天下為公 (\"all under heaven is for the good of the people\"), is a motto associated with Sun Yat-sen.",
+      "culturalSignificance": "The gate is a powerful symbol of Chinatown's identity — but its history is also a reminder of debate. When it opened, some residents argued that the money should have gone to urgent needs like housing, and its funding was tied to Cold War-era politics between Taiwan and mainland China.",
+      "broaderConnection": "The gate reflects tensions present throughout Chinatown history: between presenting Chinatown to tourists and meeting the needs of residents, and between different political loyalties within the community.",
+      "preservationConnection": "The gate shows that \"preservation\" includes questions about who represents a culture and for whom. It is a useful case for discussing the difference between symbolic heritage and community well-being.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Dragon Gate (San Francisco)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dragon_Gate_(San_Francisco)",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "verified-secondary",
+      "researchNotes": [
+        "Look for 1970 newspaper coverage of the dedication and protest (CHSA or SF Public Library archives)."
+      ]
+    },
+    {
+      "id": "golden-gate-fortune-cookie",
+      "name": "Golden Gate Fortune Cookie Factory",
+      "chineseName": "",
+      "category": "Legacy Business",
+      "latitude": 37.7957,
+      "longitude": -122.40735,
+      "address": "56 Ross Alley",
+      "relevantPeriods": [
+        "1950-1999",
+        "2000-present"
+      ],
+      "dateSummary": "Making cookies on Ross Alley since 1962",
+      "historicalEvents": [
+        {
+          "date": "1962",
+          "period": "1950-1999",
+          "text": "The factory opened on Ross Alley, between Jackson and Washington Streets.",
+          "needsVerification": false
+        },
+        {
+          "date": "2016",
+          "period": "2000-present",
+          "text": "According to the company, the City recognized it as a \"San Francisco Legendary Business.\"",
+          "needsVerification": true
+        },
+        {
+          "date": "Today",
+          "period": "2000-present",
+          "text": "The small factory continues to make fortune cookies on site and welcomes visitors.",
+          "needsVerification": false
+        }
+      ],
+      "description": "This small family-run business folds fortune cookies in a narrow alley storefront. It is one of the few places where visitors can watch fortune cookies being made.",
+      "culturalSignificance": "Small family businesses have long been the economic backbone of Chinatown. The fortune cookie itself is an American creation; its origins are commonly traced to Japanese immigrant bakers in California, which makes it a story about how immigrant cultures in the U.S. interacted and how \"Chinese\" food was shaped for American customers.",
+      "broaderConnection": "Legacy businesses like this face rising rents and changing tourism, the same pressures affecting many long-running Chinatown shops.",
+      "preservationConnection": "Keeping small, long-running businesses open preserves craft knowledge, family livelihoods, and the character of Chinatown's alleys.",
+      "image": {
+        "src": "",
+        "alt": "",
+        "credit": "",
+        "license": ""
+      },
+      "sources": [
+        {
+          "title": "Golden Gate Fortune Cookie Company",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Golden_Gate_Fortune_Cookie_Company",
+          "note": ""
+        },
+        {
+          "title": "History",
+          "publisher": "Golden Gate Fortune Cookie Company",
+          "url": "https://www.goldengatefortunecookies.com/history",
+          "note": ""
+        }
+      ],
+      "verificationStatus": "needs-review",
+      "researchNotes": [
+        "Research pending: cite a scholarly/journalistic source on the fortune cookie's Japanese American origins.",
+        "Ross Alley's own history (pre-1906 uses, film locations) — research pending."
+      ]
+    }
+  ]
+}

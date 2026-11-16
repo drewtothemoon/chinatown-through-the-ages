@@ -1,0 +1,218 @@
+# Decap CMS settings for "Chinatown Through the Ages".
+# Editors use this at https://spiffy-snickerdoodle-39ad29.netlify.app/admin
+#
+# >>> BEFORE IT WORKS: replace YOUR-GITHUB-USERNAME/YOUR-REPO-NAME below with your real repo,
+# >>> e.g.  repo: janedoe/chinatown-through-the-ages
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  branch: main
+  base_url: https://api.netlify.com # Netlify handles the GitHub login
+  auth_endpoint: auth
+  commit_messages:
+    update: "Update {{collection}} “{{slug}}” (via CMS)"
+    uploadMedia: "Upload “{{path}}” (via CMS)"
+    deleteMedia: "Delete “{{path}}” (via CMS)"
+
+# Lets a developer test the CMS on their own computer with `npx decap-server`. Ignored on the live site.
+local_backend: true
+
+site_url: https://spiffy-snickerdoodle-39ad29.netlify.app
+display_url: https://spiffy-snickerdoodle-39ad29.netlify.app
+
+# Uploaded images are saved in the repo at public/images/ and used on the site as /images/<file>.
+media_folder: "public/images"
+public_folder: "/images"
+
+# Option lists are defined once with YAML anchors (&name) and reused below (*name).
+collections:
+  # =====================================================================
+  - name: map_locations
+    label: "Map locations"
+    description: "The sites shown on the map. The order of the list sets the numbers on the map markers — drag items to reorder."
+    editor: { preview: false }
+    files:
+      - name: locations
+        label: "Map locations"
+        file: "src/content/locations.json"
+        format: json
+        fields:
+          - name: locations
+            label: "Locations"
+            label_singular: "location"
+            widget: list
+            summary: "{{fields.name}}"
+            collapsed: true
+            fields:
+              - { name: id, label: "ID (technical)", widget: string, hint: "⚠️ A unique short code like 'tin-how-temple' (lowercase, dashes, no spaces). Don't change it for existing sites unless you know why. For a NEW site, make up a new unique one." }
+              - { name: name, label: "Name", widget: string }
+              - { name: chineseName, label: "Chinese name (optional)", widget: string, required: false, hint: "Only add once verified, e.g. with CHSA." }
+              - { name: category, label: "Category", widget: string, hint: "e.g. Public Space, Religious Site, Community Organization, Museum & Archive, Landmark, Legacy Business" }
+              - name: latitude
+                label: "Latitude (technical)"
+                widget: number
+                value_type: float
+                step: 0.00001
+                hint: "⚠️ Sets where the marker appears — don't change unless the marker is in the wrong place. To find coordinates: go to openstreetmap.org, right-click the exact spot, choose 'Show address'; the two numbers at the top are latitude, longitude (e.g. 37.79456, -122.40700). Latitude is the FIRST number (about 37.79 in Chinatown)."
+              - name: longitude
+                label: "Longitude (technical)"
+                widget: number
+                value_type: float
+                step: 0.00001
+                hint: "⚠️ Don't change unless the marker is in the wrong place. This is the SECOND number from openstreetmap.org, and it is NEGATIVE in San Francisco (about -122.40)."
+              - { name: address, label: "Address", widget: string }
+              - name: relevantPeriods
+                label: "Time periods this site belongs to"
+                widget: select
+                multiple: true
+                options: &period_options
+                  - { label: "1850–1899 · Early Chinatown & Chinese Immigration", value: "1850-1899" }
+                  - { label: "1900–1949 · Earthquake, Rebuilding & Community Development", value: "1900-1949" }
+                  - { label: "1950–1999 · Activism, Immigration & Cultural Institutions", value: "1950-1999" }
+                  - { label: "2000–Present · Contemporary Chinatown & Cultural Preservation", value: "2000-present" }
+                hint: "Choose every period where the site has documented events or cultural significance (not just when the building was built)."
+              - { name: dateSummary, label: "Date summary (short line under the name)", widget: string, hint: "e.g. 'Founded 1963 · Museum opened here 2001'" }
+              - { name: description, label: "Historical background", widget: text, hint: "Write for someone who knows nothing about Chinatown's history." }
+              - { name: culturalSignificance, label: "Cultural significance", widget: text }
+              - { name: broaderConnection, label: "Connection to Chinatown history", widget: text }
+              - { name: preservationConnection, label: "Contribution to cultural preservation", widget: text }
+              - name: historicalEvents
+                label: "Key moments (timeline entries)"
+                label_singular: "key moment"
+                widget: list
+                summary: "{{fields.date}} — {{fields.text}}"
+                collapsed: true
+                required: false
+                fields:
+                  - { name: date, label: "Date", widget: string, hint: "e.g. '1906', 'c. 1852', '1960s', 'Today'" }
+                  - { name: period, label: "Time period", widget: select, options: *period_options }
+                  - { name: text, label: "What happened", widget: text }
+                  - { name: needsVerification, label: "Needs verification? (shows a red 'Verify' tag)", widget: boolean, default: false, required: false }
+              - name: image
+                label: "Photo"
+                widget: object
+                collapsed: false
+                hint: "Only upload photos you have permission to use. Leave the photo empty to show the 'Image pending' placeholder."
+                fields:
+                  - { name: src, label: "Photo file", widget: image, required: false, choose_url: false }
+                  - { name: alt, label: "Description for screen readers (alt text)", widget: string, required: false, hint: "Describe what is in the photo, e.g. 'Three-story brick building with red balconies'." }
+                  - { name: credit, label: "Credit", widget: string, required: false, hint: "Photographer or archive, e.g. 'Chinese Historical Society of America'." }
+                  - { name: license, label: "License / permission", widget: string, required: false, hint: "e.g. 'Courtesy of CHSA, used with permission' or 'CC BY-SA 4.0'." }
+              - name: sources
+                label: "Sources"
+                label_singular: "source"
+                widget: list
+                summary: "{{fields.title}} — {{fields.publisher}}"
+                collapsed: true
+                required: false
+                fields:
+                  - { name: title, label: "Title", widget: string }
+                  - { name: publisher, label: "Publisher (optional)", widget: string, required: false }
+                  - { name: url, label: "Link (optional)", widget: string, required: false, hint: "Full web address starting with https://" }
+                  - { name: note, label: "Note (optional)", widget: string, required: false }
+              - name: verificationStatus
+                label: "Verification status"
+                widget: select
+                options: &status_options
+                  - { label: "Reviewed with CHSA", value: "chsa-reviewed" }
+                  - { label: "Checked against published sources (not yet CHSA-reviewed)", value: "verified-secondary" }
+                  - { label: "Draft · needs review (sources conflict or are weak)", value: "needs-review" }
+                  - { label: "Placeholder · research pending", value: "placeholder" }
+                default: "needs-review"
+              - name: researchNotes
+                label: "Research notes / open questions for CHSA"
+                label_singular: "note"
+                widget: list
+                required: false
+                field: { name: note, label: "Note", widget: string }
+
+  # =====================================================================
+  - name: time_periods
+    label: "Time periods"
+    description: "The four periods on the timeline and the overview text shown when one is selected."
+    editor: { preview: false }
+    files:
+      - name: periods
+        label: "Time periods"
+        file: "src/content/periods.json"
+        format: json
+        fields:
+          - name: periods
+            label: "Periods"
+            label_singular: "period"
+            widget: list
+            summary: "{{fields.label}} — {{fields.title}}"
+            allow_add: false
+            allow_delete: false
+            allow_reorder: false
+            fields:
+              - { name: id, label: "ID (technical)", widget: string, hint: "⚠️ Do not change. Locations and key moments use this ID to link to the period." }
+              - { name: label, label: "Years label", widget: string, hint: "e.g. 1850–1899" }
+              - { name: title, label: "Title", widget: string }
+              - { name: summary, label: "Overview of the period", widget: text }
+              - name: keyThemes
+                label: "Key themes (small tags)"
+                label_singular: "theme"
+                widget: list
+                required: false
+                field: { name: theme, label: "Theme", widget: string }
+              - name: verificationStatus
+                label: "Verification status"
+                widget: select
+                options: *status_options
+
+  # =====================================================================
+  - name: site_text
+    label: "Site text"
+    description: "Page title, intro text, About section, and footer."
+    editor: { preview: false }
+    files:
+      - name: site
+        label: "Site text"
+        file: "src/content/site.json"
+        format: json
+        fields:
+          - { name: siteName, label: "Site name (top bar and footer)", widget: string }
+          - { name: pageTitle, label: "Page title (large heading)", widget: string }
+          - { name: pageSubtitle, label: "Page subtitle", widget: text, required: false }
+          - { name: allPeriodsHeading, label: "'All periods' box — bold start", widget: string, required: false, hint: "Shown in bold when 'All Periods' is selected, e.g. 'All periods.'" }
+          - { name: allPeriodsText, label: "'All periods' box — text", widget: text }
+          - name: about
+            label: "About the Project section"
+            widget: object
+            collapsed: false
+            fields:
+              - { name: eyebrow, label: "Small label above heading", widget: string }
+              - { name: heading, label: "Heading", widget: string }
+              - name: paragraphs
+                label: "Paragraphs"
+                label_singular: "paragraph"
+                widget: list
+                hint: "Formatting: put *asterisks* around words for italics. Type {verify} to show the small red 'Verify' tag."
+                field: { name: paragraph, label: "Paragraph", widget: text }
+              - name: goals
+                label: "Goal cards"
+                label_singular: "goal card"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: title, label: "Title", widget: string }
+                  - { name: body, label: "Text", widget: text }
+          - name: footer
+            label: "Footer"
+            widget: object
+            collapsed: false
+            fields:
+              - { name: courseLine, label: "Course line", widget: string, required: false }
+              - { name: collaborationLine, label: "Collaboration line", widget: string, required: false }
+              - { name: groupMembersHeading, label: "Group members — heading", widget: string }
+              - name: groupMembers
+                label: "Group members"
+                label_singular: "member"
+                widget: list
+                hint: "One name per item."
+                field: { name: member, label: "Name", widget: string }
+              - { name: sourcesHeading, label: "Sources — heading", widget: string }
+              - { name: sourcesText, label: "Sources — text", widget: text, required: false, hint: "The required OpenStreetMap credit is added automatically after this text." }
+              - { name: creditsText, label: "Credits line", widget: string, required: false, hint: "{year} is replaced with the current year." }

@@ -1,0 +1,56 @@
+{
+  "periods": [
+    {
+      "id": "1850-1899",
+      "label": "1850–1899",
+      "title": "Early Chinatown & Chinese Immigration",
+      "summary": "Chinese immigrants began arriving in San Francisco in large numbers during the California Gold Rush, and a Chinese quarter grew up around Portsmouth Square. Facing discrimination in housing, jobs, and the law, residents built their own institutions — district and family associations, temples, and mutual-aid networks — to support newcomers. Anti-Chinese politics culminated in the Chinese Exclusion Act of 1882, the first U.S. law to bar immigration based on nationality, and community organizations responded by challenging discriminatory laws in court.",
+      "keyThemes": [
+        "Gold Rush migration",
+        "Mutual-aid associations",
+        "Chinese Exclusion Act (1882)",
+        "Legal resistance"
+      ],
+      "verificationStatus": "verified-secondary"
+    },
+    {
+      "id": "1900-1949",
+      "label": "1900–1949",
+      "title": "Earthquake, Rebuilding & Community Development",
+      "summary": "The 1906 earthquake and fire destroyed Chinatown. Some city officials proposed moving Chinatown elsewhere, but Chinese residents and merchants rebuilt in place — many of today's buildings date from this rebuilding. Under continued exclusion, many immigrants were detained and interrogated at the Angel Island Immigration Station (1910–1940). Community institutions such as churches, associations, the YWCA, and schools expanded their services. Chinese exclusion was repealed in 1943, though strict immigration quotas remained.",
+      "keyThemes": [
+        "1906 earthquake and fire",
+        "Rebuilding in place",
+        "Angel Island era",
+        "Repeal of exclusion (1943)"
+      ],
+      "verificationStatus": "verified-secondary"
+    },
+    {
+      "id": "1950-1999",
+      "label": "1950–1999",
+      "title": "Activism, Immigration & Cultural Institutions",
+      "summary": "The Immigration and Nationality Act of 1965 ended national-origin quotas, and new immigrants from Hong Kong, Taiwan, mainland China, and Southeast Asia reshaped the neighborhood. Overcrowding, poverty, and housing pressure grew. Inspired by the civil rights movement, a generation of Asian American activists organized for housing, health care, ethnic studies, and community services, while new institutions — including the Chinese Historical Society of America (1963) — began documenting and preserving Chinese American history.",
+      "keyThemes": [
+        "1965 Immigration Act",
+        "Asian American Movement",
+        "Housing activism",
+        "Founding of cultural institutions"
+      ],
+      "verificationStatus": "verified-secondary"
+    },
+    {
+      "id": "2000-present",
+      "label": "2000–Present",
+      "title": "Contemporary Chinatown & Cultural Preservation",
+      "summary": "Chinatown remains one of the oldest and most densely populated Chinatowns in North America, and a home for many immigrant seniors and families. It faces rising costs, development pressure, and the effects of the COVID-19 pandemic and a rise in anti-Asian harassment. Museums, legacy businesses, community organizations, and temples work to keep traditions, languages, and histories alive — and to make sure Chinatown remains a living community, not only a tourist destination.",
+      "keyThemes": [
+        "Legacy businesses",
+        "Affordable housing",
+        "Museums & archives",
+        "Living heritage"
+      ],
+      "verificationStatus": "needs-review"
+    }
+  ]
+}
