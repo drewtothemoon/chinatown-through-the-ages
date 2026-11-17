@@ -1,12 +1,11 @@
 # Decap CMS settings for "Chinatown Through the Ages".
 # Editors use this at https://spiffy-snickerdoodle-39ad29.netlify.app/admin
 #
-# >>> BEFORE IT WORKS: replace YOUR-GITHUB-USERNAME/YOUR-REPO-NAME below with your real repo,
-# >>> e.g.  repo: janedoe/chinatown-through-the-ages
+# GitHub repository the CMS saves to (owner/name).
 
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  repo: drewtothemoon/chinatown-through-the-ages
   branch: main
   base_url: https://api.netlify.com # Netlify handles the GitHub login
   auth_endpoint: auth
